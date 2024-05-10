@@ -30,7 +30,7 @@
       "pageTitle": "/home/sweet/home",
       "logoImageUrl": "/imgs/logo/logo.png",
       "faviconUrl": "/imgs/favicon/favicon-squared.png",
-      "backgroundImageUrl": "/imgs/background/background_5.jpg",
+      "backgroundImageUrl": "/imgs/background/background_5.webp",
       "customCss": "",
       "colors": {
         "primary": "dark",
