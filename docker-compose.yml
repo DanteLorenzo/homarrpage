@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+
+#----------------#
+#     Nginx      #
+#----------------#
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    ports:
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/certificates:/etc/nginx/certificates:ro
+    restart: always
+    networks:
+      - docknet
+
+#----------------#
+#     Homarr     #
+#----------------#
+  homarr:
+    container_name: homarr
+    image: ghcr.io/ajnart/homarr:latest
+    restart: unless-stopped
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./homarr/configs:/app/data/configs
+      - ./homarr/imgs:/app/public/imgs
+      - ./homarr/data:/data
+    networks:
+      - docknet
+
+networks:
+  docknet:
+    driver: bridge
