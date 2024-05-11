@@ -8,10 +8,555 @@
     {
       "id": "default",
       "position": 0
+    },
+    {
+      "id": "83ae77b9-b634-4ecf-b13e-45309b7eb0b5",
+      "position": 2
+    },
+    {
+      "id": "a1cc008e-b8c7-4c52-848a-b1ef6880647b",
+      "position": 4
     }
   ],
-  "apps": [],
-  "widgets": [],
+  "apps": [
+    {
+      "id": "54d8c916-f517-4ec2-97e3-130f7fb9c7e7",
+      "name": "HTB",
+      "url": "https://www.hackthebox.com",
+      "appearance": {
+        "iconUrl": "https://yt3.googleusercontent.com/ytc/AIdro_mrc5-jAD_jHtunQQVnSJgGkDNXbKfVAk2RXcsaBhTuHsQ=s160-c-k-c0x00ffffff-no-rj",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://www.hackthebox.com/"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 8,
+            "y": 2
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "082ff444-6a31-46ff-969a-0813f8ce83d6",
+      "name": "Codeby Games",
+      "url": "https://codeby.games",
+      "appearance": {
+        "iconUrl": "https://codeby.school/images/codeby_site.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://codeby.games/"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 8,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "77aa79d1-652c-436f-9966-bff557adc287",
+      "name": "2422",
+      "url": "http://192.168.88.1",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/mikrotik.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://192.168.88.1"
+      },
+      "area": {
+        "type": "sidebar",
+        "properties": {
+          "location": "left"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 1,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "bf6a7367-932e-4404-a08e-7a7e21e32460",
+      "name": "Guacamole",
+      "url": "https://192.168.200.200",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/guacamole.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://192.168.200.200"
+      },
+      "area": {
+        "type": "sidebar",
+        "properties": {
+          "location": "left"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "a220fa6e-27e2-46f4-91c6-57ede3e78d42",
+      "name": "Codecrafters",
+      "url": "https://app.codecrafters.io/catalog",
+      "appearance": {
+        "iconUrl": "https://app.codecrafters.io/assets/7408d202b2bb110054fc.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://app.codecrafters.io/catalog"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 8,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "6bd4f9d3-4f22-48e6-a231-8a808b937cfb",
+      "name": "4422",
+      "url": "http://192.168.200.1",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/mikrotik.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://192.168.200.1"
+      },
+      "area": {
+        "type": "sidebar",
+        "properties": {
+          "location": "left"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 0,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "f9f555c1-0029-4c56-8f4f-f70f274c2acf",
+      "name": "GitHub",
+      "url": "https://github.com/DanteLorenzo",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/github.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://github.com/DanteLorenzo"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "72d7dea1-92a7-4641-bcf2-8f3dc48624c3",
+      "name": "Proxmox",
+      "url": "https://192.168.200.228:8006",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/proxmox.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://192.168.200.228:8006/"
+      },
+      "area": {
+        "type": "sidebar",
+        "properties": {
+          "location": "left"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 0,
+            "y": 2
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "id": "1a2fcdcd-f3d9-4b47-8b6b-00e8ec264291",
+      "type": "notebook",
+      "properties": {
+        "showToolbar": true,
+        "allowReadOnlyCheck": true,
+        "content": "<p style=\"text-align: center\"><img src=\"/imgs/logo/logo.png\" width=\"25%\"></p><h2>Welcome to <strong><span style=\"color: rgb(250, 82, 82)\">Homarr</span>'s</strong> notebook widget</h2><p>The <code>notebook</code> widget focuses on usability and is designed to be as simple as possible to bring a familiar editing experience to regular users, be it markdown or office type editors. It is based on <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://tiptap.dev/\">Tiptap.dev</a> and supports most of its features:</p><table><tbody><tr><td colspan=\"3\" rowspan=\"1\" style=\"background-color: rgba(95, 95, 95, 0.5)\"><h4 style=\"text-align: center\">General text formatting</h4></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p><strong>Bold</strong></p></td><td colspan=\"1\" rowspan=\"1\"><p style=\"text-align: center\"><em>Italic</em></p></td><td colspan=\"1\" rowspan=\"1\"><p style=\"text-align: right\"><u>Underline</u></p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p><s>Strike-through</s></p></td><td colspan=\"1\" rowspan=\"1\"><p style=\"text-align: center\">Text alignment</p></td><td colspan=\"1\" rowspan=\"1\"><p style=\"text-align: right\">Headings</p></td></tr></tbody></table><table><tbody><tr><td colspan=\"3\" rowspan=\"1\" style=\"background-color: rgba(95, 95, 95, 0.5)\"><h4 style=\"text-align: center\">Lists</h4></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><ol><li><p>Ordered</p></li></ol></td><td colspan=\"1\" rowspan=\"1\"><ul><li><p>Bullet</p></li></ul></td><td colspan=\"1\" rowspan=\"1\"><ul data-type=\"taskList\"><li data-checked=\"true\" data-type=\"taskItem\"><label><input type=\"checkbox\" checked=\"checked\"><span></span></label><div><p>Check</p></div></li></ul></td></tr></tbody></table><table><tbody><tr><td colspan=\"3\" rowspan=\"1\" style=\"background-color: rgba(95, 95, 95, 0.5)\"><h4 style=\"text-align: center\">Coloring</h4></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p><span style=\"color: rgb(250, 82, 82)\">Text coloring</span></p></td><td colspan=\"1\" rowspan=\"1\"><p style=\"text-align: center\"><mark data-color=\"#FA5252\" style=\"background-color: #FA5252; color: inherit\">highlighting</mark></p></td><td colspan=\"1\" rowspan=\"1\" style=\"background-color: rgb(250, 82, 82)\"><p style=\"text-align: right\">Table cells</p></td></tr></tbody></table><table><tbody><tr><td colspan=\"3\" rowspan=\"1\" style=\"background-color: rgba(95, 95, 95, 0.5)\"><h4 style=\"text-align: center\">Inserts</h4></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Links</p></td><td colspan=\"1\" rowspan=\"1\"><p style=\"text-align: center\">Images</p></td><td colspan=\"1\" rowspan=\"1\"><p style=\"text-align: right\">Tables</p></td></tr></tbody></table><hr><blockquote><h4>Widget options</h4><ul><li><p>Show the toolbar to help you write markdown:</p><p>The toolbar at the top that helps with controls, some not available in markdown.</p></li><li><p>Allow check in read only mode:</p><p>Check boxes usable outside of editing, also allows anonymous checks.</p></li></ul></blockquote>"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "ce89c02e-2333-4963-a16c-88f0aa2b64a5"
+        }
+      },
+      "shape": {
+        "sm": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 8,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "2675cbaa-9d8b-49a4-a474-f276b3384823",
+      "type": "notebook",
+      "properties": {
+        "showToolbar": true,
+        "allowReadOnlyCheck": true,
+        "content": "<p style=\"text-align: center\"><img src=\"/imgs/logo/logo.png\" width=\"25%\"></p><h2></h2>"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "sm": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 9,
+            "y": 0
+          },
+          "size": {
+            "width": 4,
+            "height": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "58ec6395-bedd-4978-80d3-df8bb72698c3",
+      "type": "date",
+      "properties": {
+        "timezone": "Europe/Moscow",
+        "customTitle": "Moscow",
+        "display24HourFormat": false,
+        "dateFormat": "dddd, MMMM D",
+        "titleState": "both"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "83ae77b9-b634-4ecf-b13e-45309b7eb0b5"
+        }
+      },
+      "shape": {
+        "sm": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 10,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        }
+      }
+    }
+  ],
   "settings": {
     "common": {
       "searchEngine": {
@@ -21,7 +566,7 @@
     },
     "customization": {
       "layout": {
-        "enabledLeftSidebar": false,
+        "enabledLeftSidebar": true,
         "enabledRightSidebar": false,
         "enabledDocker": false,
         "enabledPing": true,
@@ -30,7 +575,7 @@
       "pageTitle": "/home/sweet/home",
       "logoImageUrl": "/imgs/logo/logo.png",
       "faviconUrl": "/imgs/favicon/favicon-squared.png",
-      "backgroundImageUrl": "/imgs/background/background_5.webp",
+      "backgroundImageUrl": "/imgs/background/background_2.webp",
       "customCss": "",
       "colors": {
         "primary": "dark",
@@ -40,8 +585,8 @@
       "appOpacity": 90,
       "gridstack": {
         "columnCountSmall": 3,
-        "columnCountMedium": 6,
-        "columnCountLarge": 10
+        "columnCountMedium": 10,
+        "columnCountLarge": 13
       },
       "backgroundImageAttachment": "fixed",
       "backgroundImageRepeat": "no-repeat",
