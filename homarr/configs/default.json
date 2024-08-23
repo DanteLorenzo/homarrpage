@@ -3,11 +3,21 @@
   "configProperties": {
     "name": "default"
   },
-  "categories": [],
+  "categories": [
+    {
+      "id": "c065f11b-f8c7-49b4-b8ef-c847cbb882d9",
+      "name": "Dev",
+      "position": 1
+    }
+  ],
   "wrappers": [
     {
       "id": "default",
       "position": 0
+    },
+    {
+      "id": "0d0616d2-e05c-4046-a405-45baf930f76b",
+      "position": 1
     },
     {
       "id": "83ae77b9-b634-4ecf-b13e-45309b7eb0b5",
@@ -20,11 +30,11 @@
   ],
   "apps": [
     {
-      "id": "2a5f68ff-8905-4abe-abd2-5755edd0c765",
+      "id": "10871b0e-1c1e-4ae4-8df5-9b403bfaeccd",
       "name": " ",
-      "url": "https://10.242.69.3",
+      "url": "https://10.242.69.9",
       "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/openmediavault.svg",
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/navidrome.svg",
         "appNameStatus": "normal",
         "positionAppName": "column",
         "lineClampAppName": 1,
@@ -43,294 +53,18 @@
       },
       "behaviour": {
         "isOpeningNewTab": true,
-        "externalUrl": "https://10.242.69.3"
+        "externalUrl": "https://10.242.69.9"
       },
       "area": {
         "type": "sidebar",
         "properties": {
-          "location": "left"
-        }
-      },
-      "shape": {
-        "lg": {
-          "location": {
-            "x": 0,
-            "y": 2
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        },
-        "sm": {
-          "location": {
-            "x": 1,
-            "y": 1
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        },
-        "md": {
-          "location": {
-            "x": 0,
-            "y": 3
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      },
-      "integration": {
-        "type": null,
-        "properties": []
-      }
-    },
-    {
-      "id": "0cf37901-1e44-45d7-8a71-8c8475826830",
-      "name": " ",
-      "url": "https://10.242.69.3:3670",
-      "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/filebrowser.svg",
-        "appNameStatus": "normal",
-        "positionAppName": "column",
-        "lineClampAppName": 1,
-        "appNameFontSize": 16
-      },
-      "network": {
-        "enabledStatusChecker": true,
-        "statusCodes": [
-          "200",
-          "301",
-          "302",
-          "304",
-          "307",
-          "308"
-        ]
-      },
-      "behaviour": {
-        "isOpeningNewTab": true,
-        "externalUrl": "https://10.242.69.3:3670"
-      },
-      "area": {
-        "type": "sidebar",
-        "properties": {
-          "location": "left"
-        }
-      },
-      "shape": {
-        "lg": {
-          "location": {
-            "x": 1,
-            "y": 3
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        },
-        "md": {
-          "location": {
-            "x": 0,
-            "y": 2
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        },
-        "sm": {
-          "location": {
-            "x": 0,
-            "y": 2
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      },
-      "integration": {
-        "type": null,
-        "properties": []
-      }
-    },
-    {
-      "id": "dc9007e2-8e50-4b9b-aa06-2d4624bbb97f",
-      "name": " ",
-      "url": "https://10.242.69.11",
-      "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/semaphore.svg",
-        "appNameStatus": "normal",
-        "positionAppName": "column",
-        "lineClampAppName": 1,
-        "appNameFontSize": 16
-      },
-      "network": {
-        "enabledStatusChecker": true,
-        "statusCodes": [
-          "200",
-          "301",
-          "302",
-          "304",
-          "307",
-          "308"
-        ]
-      },
-      "behaviour": {
-        "isOpeningNewTab": true,
-        "externalUrl": "https://10.242.69.11"
-      },
-      "area": {
-        "type": "sidebar",
-        "properties": {
-          "location": "left"
-        }
-      },
-      "shape": {
-        "lg": {
-          "location": {
-            "x": 1,
-            "y": 4
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        },
-        "md": {
-          "location": {
-            "x": 1,
-            "y": 3
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        },
-        "sm": {
-          "location": {
-            "x": 1,
-            "y": 3
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      },
-      "integration": {
-        "type": null,
-        "properties": []
-      }
-    },
-    {
-      "id": "fcfb95e9-0bb9-471d-97f9-182e0dc5ee57",
-      "name": " ",
-      "url": "https://10.242.69.8:9443",
-      "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/portainer.svg",
-        "appNameStatus": "normal",
-        "positionAppName": "column",
-        "lineClampAppName": 1,
-        "appNameFontSize": 16
-      },
-      "network": {
-        "enabledStatusChecker": true,
-        "statusCodes": [
-          "200",
-          "301",
-          "302",
-          "304",
-          "307",
-          "308"
-        ]
-      },
-      "behaviour": {
-        "isOpeningNewTab": true,
-        "externalUrl": "https://10.242.69.8:9443"
-      },
-      "area": {
-        "type": "sidebar",
-        "properties": {
-          "location": "left"
+          "location": "right"
         }
       },
       "shape": {
         "md": {
           "location": {
             "x": 0,
-            "y": 1
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        },
-        "lg": {
-          "location": {
-            "x": 0,
-            "y": 1
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        },
-        "sm": {
-          "location": {
-            "x": 0,
-            "y": 2
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      },
-      "integration": {
-        "type": null,
-        "properties": []
-      }
-    },
-    {
-      "id": "54d8c916-f517-4ec2-97e3-130f7fb9c7e7",
-      "name": " ",
-      "url": "https://www.hackthebox.com",
-      "appearance": {
-        "iconUrl": "https://yt3.googleusercontent.com/ytc/AIdro_mrc5-jAD_jHtunQQVnSJgGkDNXbKfVAk2RXcsaBhTuHsQ=s160-c-k-c0x00ffffff-no-rj",
-        "appNameStatus": "normal",
-        "positionAppName": "column",
-        "lineClampAppName": 1,
-        "appNameFontSize": 16
-      },
-      "network": {
-        "enabledStatusChecker": true,
-        "statusCodes": [
-          "200",
-          "301",
-          "302",
-          "304",
-          "307",
-          "308"
-        ]
-      },
-      "behaviour": {
-        "isOpeningNewTab": true,
-        "externalUrl": "https://www.hackthebox.com/"
-      },
-      "area": {
-        "type": "wrapper",
-        "properties": {
-          "id": "default"
-        }
-      },
-      "shape": {
-        "lg": {
-          "location": {
-            "x": 13,
             "y": 0
           },
           "size": {
@@ -344,14 +78,132 @@
             "y": 3
           },
           "size": {
-            "width": 3,
+            "width": 1,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 1,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "2b67b71f-3eca-45bf-86b3-b84db341d0b6",
+      "name": " ",
+      "url": "http://10.242.69.13:8888",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/pgadmin.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://10.242.69.13:8888"
+      },
+      "area": {
+        "type": "category",
+        "properties": {
+          "id": "c065f11b-f8c7-49b4-b8ef-c847cbb882d9"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 7,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
             "height": 1
           }
         },
         "md": {
           "location": {
-            "x": 5,
-            "y": 2
+            "x": 8,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "3ea85c52-6ffa-4d73-bb84-eb660940a092",
+      "name": " ",
+      "url": "http://10.242.69.3:9001",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/minio.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://10.242.69.3:9001"
+      },
+      "area": {
+        "type": "category",
+        "properties": {
+          "id": "c065f11b-f8c7-49b4-b8ef-c847cbb882d9"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 8,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 7,
+            "y": 0
           },
           "size": {
             "width": 1,
@@ -391,16 +243,16 @@
         "externalUrl": "https://10.242.69.6"
       },
       "area": {
-        "type": "sidebar",
+        "type": "category",
         "properties": {
-          "location": "left"
+          "id": "c065f11b-f8c7-49b4-b8ef-c847cbb882d9"
         }
       },
       "shape": {
         "md": {
           "location": {
-            "x": 1,
-            "y": 1
+            "x": 11,
+            "y": 0
           },
           "size": {
             "width": 1,
@@ -409,8 +261,8 @@
         },
         "lg": {
           "location": {
-            "x": 1,
-            "y": 2
+            "x": 9,
+            "y": 0
           },
           "size": {
             "width": 1,
@@ -434,11 +286,11 @@
       }
     },
     {
-      "id": "96a99702-6cc0-49ab-889c-43226c0b2aa2",
+      "id": "dc9007e2-8e50-4b9b-aa06-2d4624bbb97f",
       "name": " ",
-      "url": "http://10.242.69.5",
+      "url": "https://10.242.69.11",
       "appearance": {
-        "iconUrl": "https://www.eve-ng.net/wp-content/uploads/2019/11/Logo_EVE_Color-1-e1573260071537.png",
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/semaphore.svg",
         "appNameStatus": "normal",
         "positionAppName": "column",
         "lineClampAppName": 1,
@@ -457,19 +309,29 @@
       },
       "behaviour": {
         "isOpeningNewTab": true,
-        "externalUrl": "http://10.242.69.5"
+        "externalUrl": "https://10.242.69.11"
       },
       "area": {
-        "type": "sidebar",
+        "type": "category",
         "properties": {
-          "location": "left"
+          "id": "c065f11b-f8c7-49b4-b8ef-c847cbb882d9"
         }
       },
       "shape": {
+        "lg": {
+          "location": {
+            "x": 10,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
         "md": {
           "location": {
-            "x": 0,
-            "y": 4
+            "x": 9,
+            "y": 0
           },
           "size": {
             "width": 1,
@@ -479,86 +341,7 @@
         "sm": {
           "location": {
             "x": 1,
-            "y": 1
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        },
-        "lg": {
-          "location": {
-            "x": 0,
             "y": 3
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      },
-      "integration": {
-        "type": null,
-        "properties": []
-      }
-    },
-    {
-      "id": "10871b0e-1c1e-4ae4-8df5-9b403bfaeccd",
-      "name": " ",
-      "url": "https://10.242.69.9",
-      "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/navidrome.svg",
-        "appNameStatus": "normal",
-        "positionAppName": "column",
-        "lineClampAppName": 1,
-        "appNameFontSize": 16
-      },
-      "network": {
-        "enabledStatusChecker": true,
-        "statusCodes": [
-          "200",
-          "301",
-          "302",
-          "304",
-          "307",
-          "308"
-        ]
-      },
-      "behaviour": {
-        "isOpeningNewTab": true,
-        "externalUrl": "https://10.242.69.9"
-      },
-      "area": {
-        "type": "sidebar",
-        "properties": {
-          "location": "left"
-        }
-      },
-      "shape": {
-        "md": {
-          "location": {
-            "x": 1,
-            "y": 2
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        },
-        "sm": {
-          "location": {
-            "x": 0,
-            "y": 3
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        },
-        "lg": {
-          "location": {
-            "x": 1,
-            "y": 1
           },
           "size": {
             "width": 1,
@@ -606,8 +389,8 @@
       "shape": {
         "md": {
           "location": {
-            "x": 1,
-            "y": 3
+            "x": 10,
+            "y": 2
           },
           "size": {
             "width": 1,
@@ -626,145 +409,7 @@
         },
         "lg": {
           "location": {
-            "x": 0,
-            "y": 0
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      },
-      "integration": {
-        "type": null,
-        "properties": []
-      }
-    },
-    {
-      "id": "082ff444-6a31-46ff-969a-0813f8ce83d6",
-      "name": " ",
-      "url": "https://codeby.games/users/drdxxm",
-      "appearance": {
-        "iconUrl": "https://codeby.school/images/codeby_site.png",
-        "appNameStatus": "normal",
-        "positionAppName": "column",
-        "lineClampAppName": 1,
-        "appNameFontSize": 16
-      },
-      "network": {
-        "enabledStatusChecker": true,
-        "statusCodes": [
-          "200",
-          "301",
-          "302",
-          "304",
-          "307",
-          "308"
-        ]
-      },
-      "behaviour": {
-        "isOpeningNewTab": true,
-        "externalUrl": "https://codeby.games/users/drdxxm"
-      },
-      "area": {
-        "type": "wrapper",
-        "properties": {
-          "id": "default"
-        }
-      },
-      "shape": {
-        "lg": {
-          "location": {
-            "x": 11,
-            "y": 0
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        },
-        "sm": {
-          "location": {
-            "x": 0,
-            "y": 2
-          },
-          "size": {
-            "width": 3,
-            "height": 1
-          }
-        },
-        "md": {
-          "location": {
-            "x": 5,
-            "y": 4
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      },
-      "integration": {
-        "type": null,
-        "properties": []
-      }
-    },
-    {
-      "id": "40a33a03-b905-4429-b1aa-c45eac066259",
-      "name": " ",
-      "url": "https://book.hacktricks.xyz",
-      "appearance": {
-        "iconUrl": "https://book.hacktricks.xyz/~gitbook/image?url=https%3A%2F%2F2783428383-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fcollections%252FmuMguNrsRx2mNyNqEox4%252Ficon%252F1qCJ0VIDlWcvGSecYCDq%252Ffondo.png%3Falt%3Dmedia%26token%3D1e721267-450f-43f3-861b-6c4f93278e93&width=32&dpr=1&quality=100&sign=b1618fae1ce4f9634334c365bb0b091a2dd42b6e4f4db1cf6e9d630acd4129a8",
-        "appNameStatus": "normal",
-        "positionAppName": "column",
-        "lineClampAppName": 1,
-        "appNameFontSize": 16
-      },
-      "network": {
-        "enabledStatusChecker": true,
-        "statusCodes": [
-          "200",
-          "301",
-          "302",
-          "304",
-          "307",
-          "308"
-        ]
-      },
-      "behaviour": {
-        "isOpeningNewTab": true,
-        "externalUrl": "https://book.hacktricks.xyz"
-      },
-      "area": {
-        "type": "wrapper",
-        "properties": {
-          "id": "a1cc008e-b8c7-4c52-848a-b1ef6880647b"
-        }
-      },
-      "shape": {
-        "md": {
-          "location": {
-            "x": 2,
-            "y": 0
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        },
-        "sm": {
-          "location": {
-            "x": 1,
-            "y": 0
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        },
-        "lg": {
-          "location": {
-            "x": 1,
+            "x": 12,
             "y": 0
           },
           "size": {
@@ -805,9 +450,9 @@
         "externalUrl": "http://10.242.69.1/"
       },
       "area": {
-        "type": "sidebar",
+        "type": "category",
         "properties": {
-          "location": "left"
+          "id": "c065f11b-f8c7-49b4-b8ef-c847cbb882d9"
         }
       },
       "shape": {
@@ -848,6 +493,213 @@
       }
     },
     {
+      "id": "a220fa6e-27e2-46f4-91c6-57ede3e78d42",
+      "name": " ",
+      "url": "https://app.codecrafters.io/catalog",
+      "appearance": {
+        "iconUrl": "https://app.codecrafters.io/assets/7408d202b2bb110054fc.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://app.codecrafters.io/catalog"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 3,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "sm": {
+          "location": {
+            "x": 0,
+            "y": 4
+          },
+          "size": {
+            "width": 3,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 9,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "96a99702-6cc0-49ab-889c-43226c0b2aa2",
+      "name": " ",
+      "url": "http://10.242.69.5",
+      "appearance": {
+        "iconUrl": "https://www.eve-ng.net/wp-content/uploads/2019/11/Logo_EVE_Color-1-e1573260071537.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://10.242.69.5"
+      },
+      "area": {
+        "type": "category",
+        "properties": {
+          "id": "c065f11b-f8c7-49b4-b8ef-c847cbb882d9"
+        }
+      },
+      "shape": {
+        "md": {
+          "location": {
+            "x": 10,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "sm": {
+          "location": {
+            "x": 1,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 11,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "54d8c916-f517-4ec2-97e3-130f7fb9c7e7",
+      "name": " ",
+      "url": "https://www.hackthebox.com",
+      "appearance": {
+        "iconUrl": "https://yt3.googleusercontent.com/ytc/AIdro_mrc5-jAD_jHtunQQVnSJgGkDNXbKfVAk2RXcsaBhTuHsQ=s160-c-k-c0x00ffffff-no-rj",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://www.hackthebox.com/"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 1,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "sm": {
+          "location": {
+            "x": 0,
+            "y": 3
+          },
+          "size": {
+            "width": 3,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 8,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
       "id": "292ed2df-0b54-49ba-8970-68bed8d11ea6",
       "name": " ",
       "url": "https://10.242.69.2:8006",
@@ -874,9 +726,9 @@
         "externalUrl": "https://10.242.69.2:8006/"
       },
       "area": {
-        "type": "sidebar",
+        "type": "category",
         "properties": {
-          "location": "left"
+          "id": "c065f11b-f8c7-49b4-b8ef-c847cbb882d9"
         }
       },
       "shape": {
@@ -951,75 +803,6 @@
       "shape": {
         "md": {
           "location": {
-            "x": 0,
-            "y": 0
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        },
-        "lg": {
-          "location": {
-            "x": 8,
-            "y": 0
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        },
-        "sm": {
-          "location": {
-            "x": 0,
-            "y": 0
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      },
-      "integration": {
-        "type": null,
-        "properties": []
-      }
-    },
-    {
-      "id": "db5cb4f9-ce10-4514-9b1b-672b963dd0d0",
-      "name": " ",
-      "url": "https://blog.devsecopsguides.com",
-      "appearance": {
-        "iconUrl": "https://avatars.githubusercontent.com/u/138188038?s=200&v=4",
-        "appNameStatus": "normal",
-        "positionAppName": "column",
-        "lineClampAppName": 1,
-        "appNameFontSize": 16
-      },
-      "network": {
-        "enabledStatusChecker": true,
-        "statusCodes": [
-          "200",
-          "301",
-          "302",
-          "304",
-          "307",
-          "308"
-        ]
-      },
-      "behaviour": {
-        "isOpeningNewTab": true,
-        "externalUrl": "https://blog.devsecopsguides.com"
-      },
-      "area": {
-        "type": "wrapper",
-        "properties": {
-          "id": "a1cc008e-b8c7-4c52-848a-b1ef6880647b"
-        }
-      },
-      "shape": {
-        "md": {
-          "location": {
             "x": 3,
             "y": 0
           },
@@ -1031,7 +814,7 @@
         "lg": {
           "location": {
             "x": 0,
-            "y": 1
+            "y": 0
           },
           "size": {
             "width": 1,
@@ -1081,16 +864,95 @@
         "externalUrl": "https://10.242.69.12"
       },
       "area": {
-        "type": "sidebar",
+        "type": "category",
         "properties": {
-          "location": "left"
+          "id": "c065f11b-f8c7-49b4-b8ef-c847cbb882d9"
         }
       },
       "shape": {
         "lg": {
           "location": {
+            "x": 2,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 6,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "082ff444-6a31-46ff-969a-0813f8ce83d6",
+      "name": " ",
+      "url": "https://codeby.games/users/drdxxm",
+      "appearance": {
+        "iconUrl": "https://codeby.school/images/codeby_site.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://codeby.games/users/drdxxm"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 2,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "sm": {
+          "location": {
             "x": 0,
-            "y": 5
+            "y": 2
+          },
+          "size": {
+            "width": 3,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 7,
+            "y": 0
           },
           "size": {
             "width": 1,
@@ -1130,16 +992,16 @@
         "externalUrl": "https://10.242.69.4"
       },
       "area": {
-        "type": "sidebar",
+        "type": "category",
         "properties": {
-          "location": "left"
+          "id": "c065f11b-f8c7-49b4-b8ef-c847cbb882d9"
         }
       },
       "shape": {
         "lg": {
           "location": {
-            "x": 0,
-            "y": 4
+            "x": 3,
+            "y": 0
           },
           "size": {
             "width": 1,
@@ -1148,66 +1010,7 @@
         },
         "md": {
           "location": {
-            "x": 0,
-            "y": 1
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        },
-        "sm": {
-          "location": {
-            "x": 0,
-            "y": 2
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      },
-      "integration": {
-        "type": null,
-        "properties": []
-      }
-    },
-    {
-      "id": "a220fa6e-27e2-46f4-91c6-57ede3e78d42",
-      "name": " ",
-      "url": "https://app.codecrafters.io/catalog",
-      "appearance": {
-        "iconUrl": "https://app.codecrafters.io/assets/7408d202b2bb110054fc.svg",
-        "appNameStatus": "normal",
-        "positionAppName": "column",
-        "lineClampAppName": 1,
-        "appNameFontSize": 16
-      },
-      "network": {
-        "enabledStatusChecker": true,
-        "statusCodes": [
-          "200",
-          "301",
-          "302",
-          "304",
-          "307",
-          "308"
-        ]
-      },
-      "behaviour": {
-        "isOpeningNewTab": true,
-        "externalUrl": "https://app.codecrafters.io/catalog"
-      },
-      "area": {
-        "type": "wrapper",
-        "properties": {
-          "id": "default"
-        }
-      },
-      "shape": {
-        "lg": {
-          "location": {
-            "x": 12,
+            "x": 3,
             "y": 0
           },
           "size": {
@@ -1218,17 +1021,7 @@
         "sm": {
           "location": {
             "x": 0,
-            "y": 4
-          },
-          "size": {
-            "width": 3,
-            "height": 1
-          }
-        },
-        "md": {
-          "location": {
-            "x": 5,
-            "y": 3
+            "y": 2
           },
           "size": {
             "width": 1,
@@ -1270,14 +1063,14 @@
       "area": {
         "type": "wrapper",
         "properties": {
-          "id": "a1cc008e-b8c7-4c52-848a-b1ef6880647b"
+          "id": "default"
         }
       },
       "shape": {
         "md": {
           "location": {
-            "x": 2,
-            "y": 1
+            "x": 11,
+            "y": 2
           },
           "size": {
             "width": 1,
@@ -1296,7 +1089,352 @@
         },
         "lg": {
           "location": {
+            "x": 7,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "fcfb95e9-0bb9-471d-97f9-182e0dc5ee57",
+      "name": " ",
+      "url": "https://10.242.69.8:9443",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/portainer.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://10.242.69.8:9443"
+      },
+      "area": {
+        "type": "category",
+        "properties": {
+          "id": "c065f11b-f8c7-49b4-b8ef-c847cbb882d9"
+        }
+      },
+      "shape": {
+        "md": {
+          "location": {
+            "x": 4,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 4,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "sm": {
+          "location": {
             "x": 0,
+            "y": 2
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "40a33a03-b905-4429-b1aa-c45eac066259",
+      "name": " ",
+      "url": "https://book.hacktricks.xyz",
+      "appearance": {
+        "iconUrl": "https://book.hacktricks.xyz/~gitbook/image?url=https%3A%2F%2F2783428383-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fcollections%252FmuMguNrsRx2mNyNqEox4%252Ficon%252F1qCJ0VIDlWcvGSecYCDq%252Ffondo.png%3Falt%3Dmedia%26token%3D1e721267-450f-43f3-861b-6c4f93278e93&width=32&dpr=1&quality=100&sign=b1618fae1ce4f9634334c365bb0b091a2dd42b6e4f4db1cf6e9d630acd4129a8",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://book.hacktricks.xyz"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "md": {
+          "location": {
+            "x": 12,
+            "y": 2
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "sm": {
+          "location": {
+            "x": 1,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 4,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "0cf37901-1e44-45d7-8a71-8c8475826830",
+      "name": " ",
+      "url": "https://10.242.69.3:3670",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/filebrowser.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://10.242.69.3:3670"
+      },
+      "area": {
+        "type": "category",
+        "properties": {
+          "id": "c065f11b-f8c7-49b4-b8ef-c847cbb882d9"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 5,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 2,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "sm": {
+          "location": {
+            "x": 0,
+            "y": 2
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "db5cb4f9-ce10-4514-9b1b-672b963dd0d0",
+      "name": " ",
+      "url": "https://blog.devsecopsguides.com",
+      "appearance": {
+        "iconUrl": "https://avatars.githubusercontent.com/u/138188038?s=200&v=4",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://blog.devsecopsguides.com"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "md": {
+          "location": {
+            "x": 12,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 5,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "sm": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "2a5f68ff-8905-4abe-abd2-5755edd0c765",
+      "name": " ",
+      "url": "https://10.242.69.3",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/openmediavault.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://10.242.69.3"
+      },
+      "area": {
+        "type": "category",
+        "properties": {
+          "id": "c065f11b-f8c7-49b4-b8ef-c847cbb882d9"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 6,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "sm": {
+          "location": {
+            "x": 1,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 5,
             "y": 0
           },
           "size": {
@@ -1418,7 +1556,7 @@
     },
     "customization": {
       "layout": {
-        "enabledLeftSidebar": true,
+        "enabledLeftSidebar": false,
         "enabledRightSidebar": false,
         "enabledDocker": false,
         "enabledPing": false,
@@ -1427,7 +1565,7 @@
       "pageTitle": " ",
       "logoImageUrl": "/imgs/logo/logo.png",
       "faviconUrl": "/imgs/favicon/favicon-squared.png",
-      "backgroundImageUrl": "/imgs/background/background_9.webp",
+      "backgroundImageUrl": "/imgs/background/background_5.webp",
       "customCss": "",
       "colors": {
         "primary": "dark",
